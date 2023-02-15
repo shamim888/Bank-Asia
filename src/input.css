@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row {
+    @apply flex flex-wrap -mx-4
+}
+
+.max-width {
+    max-width: 1140px;
+}
